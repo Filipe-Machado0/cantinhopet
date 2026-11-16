@@ -1,0 +1,1279 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cantinho do PET | Banho e Tosa em Saquarema, RJ</title>
+    <meta name="description" content="Cantinho do PET — Banho, Tosa e Estética Animal com a Tia Dani em Saquarema, RJ. Atendimento com hora marcada para cães e gatos.">
+    <meta name="keywords" content="banho e tosa Saquarema, pet shop Saquarema, Tia Dani, Cantinho do PET, tosa higienica, hidratacao pet">
+    <meta name="author" content="Cantinho do PET">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Cantinho do PET | Banho e Tosa com a Tia Dani">
+    <meta property="og:description" content="Banho e tosa com carinho e hora marcada em Saquarema, RJ. Agende já com a Tia Dani!">
+    <meta property="og:image" content="assets/logo.png">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/logo.png" type="image/png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/booking-modal.css">
+    <link rel="stylesheet" href="css/tour.css">
+</head>
+<body>
+
+    <!-- ============================================
+         NAVEGAÇÃO
+    ============================================= -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#inicio" class="nav__logo" aria-label="Página inicial Cantinho do PET Banho e Tosa">
+                <img src="assets/logo.png" alt="Cantinho do PET" class="nav__logo-img">
+            </a>
+
+            <ul class="nav__menu" id="navMenu">
+                <li><a href="#inicio" class="nav__link active">Início</a></li>
+                <li><a href="#tutorial" class="nav__link nav__link--tutorial js-trigger-tour" id="startTourNavBtn">Como Agendar <span class="nav__link--tutorial-badge">Tutorial</span></a></li>
+                <li><a href="#sobre" class="nav__link">Sobre</a></li>
+                <li><a href="#galeria" class="nav__link">Galeria</a></li>
+                <li><a href="#servicos" class="nav__link">Serviços &amp; Valores</a></li>
+                <li><a href="#avaliacoes" class="nav__link">Avaliações</a></li>
+                <li><a href="#contato" class="nav__link">Contato</a></li>
+                <li class="nav__menu-cta-mobile">
+                    <a href="https://wa.me/5522997351677?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20para%20meu%20pet." class="btn btn--card-whatsapp js-trigger-booking">
+                        <span>Agendar Horário</span>
+                    </a>
+                </li>
+            </ul>
+
+            <a href="https://wa.me/5522997351677?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20para%20meu%20pet." class="nav__cta" target="_blank" rel="noopener noreferrer">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.275.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.072.043.419-.101.824z"/>
+                    <path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.988-1.309A9.957 9.957 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18.167c-1.634 0-3.15-.487-4.42-1.325l-.317-.208-2.961.777.79-2.887-.228-.363A8.136 8.136 0 013.833 12c0-4.503 3.664-8.167 8.167-8.167 4.503 0 8.167 3.664 8.167 8.167 0 4.503-3.664 8.167-8.167 8.167z"/>
+                </svg>
+                <span>Agendar Horário</span>
+            </a>
+
+            <button class="nav__toggle" id="navToggle" aria-label="Menu principal">
+                <span class="nav__toggle-bar"></span>
+                <span class="nav__toggle-bar"></span>
+                <span class="nav__toggle-bar"></span>
+            </button>
+        </nav>
+    </header>
+
+
+    <!-- ============================================
+         HERO
+    ============================================= -->
+    <section class="hero" id="inicio">
+        <div class="hero__bg-glow" aria-hidden="true"></div>
+
+        <div class="container hero__content">
+            <div class="hero__rating-badge">
+                <div class="stars-row" aria-label="5 de 5 estrelas">
+                    <svg class="star-icon" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    <svg class="star-icon" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    <svg class="star-icon" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    <svg class="star-icon" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    <svg class="star-icon" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                </div>
+                <span class="hero__rating-text">Avaliação 5.0 no Google &bull; Saquarema, RJ</span>
+            </div>
+
+            <img src="assets/logo.png" alt="Cantinho do PET" class="hero__logo">
+
+            <h1 class="hero__title">O cantinho mais carinhoso para o seu pet!</h1>
+            
+            <p class="hero__subtitle">
+                Cuidado dedicado, produtos seguros e atendimento tranquilo para cães e gatos.<br>
+                <strong>Exclusivamente com horário marcado.</strong>
+            </p>
+
+            <div class="hero__actions">
+                <a href="https://wa.me/5522997351677?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20para%20meu%20pet." class="btn btn--whatsapp" target="_blank" rel="noopener noreferrer">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.275.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.072.043.419-.101.824z"/>
+                        <path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.988-1.309A9.957 9.957 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18.167c-1.634 0-3.15-.487-4.42-1.325l-.317-.208-2.961.777.79-2.887-.228-.363A8.136 8.136 0 013.833 12c0-4.503 3.664-8.167 8.167-8.167 4.503 0 8.167 3.664 8.167 8.167 0 4.503-3.664 8.167-8.167 8.167z"/>
+                    </svg>
+                    <span>Falar no WhatsApp</span>
+                </a>
+                <a href="#servicos" class="btn btn--secondary">
+                    <span>Ver Serviços e Agendar</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================
+         TUTORIAL / COMO FUNCIONA O AGENDAMENTO
+    ============================================= -->
+    <section class="section tutorial-section" id="tutorial">
+        <div class="container">
+            <div class="section__header reveal">
+                <span class="section__label">Passo a Passo Simples</span>
+                <h2 class="section__title">Como Funciona o Agendamento na Cantinho do PET?</h2>
+                <p class="section__subtitle">Garantimos um atendimento acolhedor, calmo e sem esperas com nosso fluxo rápido em 3 passos</p>
+            </div>
+
+            <div class="tutorial-cards-grid">
+                <!-- Passo 1 -->
+                <div class="tutorial-step-card reveal">
+                    <span class="tutorial-step-card__number-badge">1</span>
+                    <div class="tutorial-step-card__icon-wrap">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="6" cy="6" r="3"></circle>
+                            <circle cx="6" cy="18" r="3"></circle>
+                            <line x1="20" y1="4" x2="8.12" y2="15.88"></line>
+                            <line x1="14.47" y1="14.48" x2="20" y2="20"></line>
+                            <line x1="8.12" y1="8.12" x2="12" y2="12"></line>
+                        </svg>
+                    </div>
+                    <h3 class="tutorial-step-card__title">Escolha o Serviço Ideal</h3>
+                    <p class="tutorial-step-card__desc">
+                        Consulte nossos serviços de <strong>Banho</strong>, <strong>Tosa Geral</strong>, <strong>Tosa Higiênica</strong>, <strong>Hidratação</strong> e <strong>Corte de Unhas</strong>. Nossos valores são claros de acordo com o porte do pet.
+                    </p>
+                    <div class="tutorial-step-card__footer">
+                        <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        <span>100% Cosméticos Hydra Originais</span>
+                    </div>
+                </div>
+
+                <!-- Passo 2 -->
+                <div class="tutorial-step-card reveal">
+                    <span class="tutorial-step-card__number-badge">2</span>
+                    <div class="tutorial-step-card__icon-wrap">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                    </div>
+                    <h3 class="tutorial-step-card__title">Escolha Dia &amp; Horário</h3>
+                    <p class="tutorial-step-card__desc">
+                        No nosso assistente online, selecione o melhor horário de segunda a sábado. O atendimento é <strong>exclusivo com horário marcado</strong> para que seu pet não espere em gaiolas.
+                    </p>
+                    <div class="tutorial-step-card__footer">
+                        <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        <span>Ambiente calmo e sem aglomeração</span>
+                    </div>
+                </div>
+
+                <!-- Passo 3 -->
+                <div class="tutorial-step-card reveal">
+                    <span class="tutorial-step-card__number-badge">3</span>
+                    <div class="tutorial-step-card__icon-wrap">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.275.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.072.043.419-.101.824z"/>
+                            <path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.988-1.309A9.957 9.957 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18.167c-1.634 0-3.15-.487-4.42-1.325l-.317-.208-2.961.777.79-2.887-.228-.363A8.136 8.136 0 013.833 12c0-4.503 3.664-8.167 8.167-8.167 4.503 0 8.167 3.664 8.167 8.167 0 4.503-3.664 8.167-8.167 8.167z"/>
+                        </svg>
+                    </div>
+                    <h3 class="tutorial-step-card__title">Confirmação no WhatsApp</h3>
+                    <p class="tutorial-step-card__desc">
+                        Ao clicar em confirmar, os dados do pet vão prontinhos para o WhatsApp da Cantinho do PET. A equipe responde na hora, tira dúvidas e deixa tudo reservado.
+                    </p>
+                    <div class="tutorial-step-card__footer">
+                        <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        <span>Contato direto com Tia Dani &amp; </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box CTA Tour Interativo -->
+            <div class="tutorial-cta-box reveal">
+                <div class="tutorial-cta-box__text">
+                    <h3>Quer ver como funciona na prática?</h3>
+                    <p>Faça um tour interativo de 30 segundos pela página e veja como é fácil agendar.</p>
+                </div>
+                <div class="tutorial-cta-box__actions">
+                    <button type="button" class="btn--tutorial-tour js-trigger-tour" id="startTourSectionBtn">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                        </svg>
+                        <span>Iniciar Tour Interativo</span>
+                    </button>
+                    <a href="https://wa.me/5522997351677?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20para%20meu%20pet." class="btn btn--whatsapp js-trigger-booking">
+                        <span>Agendar Agora</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         SOBRE
+    ============================================= -->
+    <section class="section sobre" id="sobre">
+        <div class="container">
+            <div class="sobre__grid">
+                <div class="sobre__text reveal">
+                    <span class="section__label">Sobre a Cantinho do PET</span>
+                    <h2 class="section__title">Compromisso com o bem-estar do seu pet</h2>
+                    <p class="sobre__description">
+                        A <strong>Cantinho do PET</strong> oferece atendimento acolhedor em Saquarema. Trabalhamos exclusivamente com agendamento prévio para proporcionar um ambiente calmo, sem estresse e sem filas para cães.
+                    </p>
+                    <p class="sobre__description">
+                        Aqui cada animal é recebido com paciência, carinho e respeito aos seus limites, utilizando cosméticos de alta qualidade específicos para a saúde da pele e dos pelos.
+                    </p>
+
+                    <div class="sobre__features">
+                        <div class="feature-item">
+                            <div class="feature-item__icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                            </div>
+                            <div>
+                                <h4>Horário Marcado</h4>
+                                <p>Sem espera prolongada ou aglomeração de animais.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="feature-item__icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                            </div>
+                            <div>
+                                <h4>Cuidado Individual</h4>
+                                <p>Atenção exclusiva e manejo gentil com cada pet.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="feature-item__icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                            </div>
+                            <div>
+                                <h4>Produtos Selecionados</h4>
+                                <p>Linhas hipoalergênicas e toalhas devidamente higienizadas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sobre__image reveal">
+                    <div class="sobre__image-frame">
+                        <img src="assets/fachada.jpg" alt="Fachada da Cantinho do PET em Saquarema" loading="lazy">
+                        <div class="sobre__image-badge">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            <span>Saquarema &bull; SP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================
+         GALERIA / CARROSSEL DE CLIENTES REAIS
+    ============================================= -->
+    <section class="section galeria" id="galeria">
+        <div class="container">
+            <div class="section__header reveal">
+                <span class="section__label">Galeria de Focinhos Felizes</span>
+                <h2 class="section__title">Nossos Clientes Apaixonantes</h2>
+                <p class="section__subtitle">Veja os resultados reais de cuidado, carinho e produtos da linha Hydra nos pets atendidos na Cantinho do PET</p>
+            </div>
+
+            <div class="carousel-container reveal" id="corujinhaCarouselContainer">
+                <!-- Carousel Track -->
+                <div class="carousel-track" id="corujinhaCarouselTrack" tabindex="0" role="region" aria-label="Carrossel de fotos dos pets da Cantinho do PET">
+                    
+                    <!-- Card 1: Banho Hydra -->
+                    <article class="carousel-card">
+                        <div class="carousel-card__media">
+                            <img src="assets/images/pet-banho-hydra.jpg" alt="Border Collie tomando banho relaxante com espuma da Linha Hydra" class="carousel-card__img" loading="lazy">
+                            <span class="carousel-card__badge carousel-card__badge--hydra">Linha Hydra Oficial</span>
+                        </div>
+                        <div class="carousel-card__body">
+                            <h3 class="carousel-card__title">Banho Relaxante Hydra</h3>
+                            <p class="carousel-card__text">Espuma cremosa, água na temperatura ideal e cosméticos hipoalergênicos da melhor linha do mercado pet.</p>
+                            <div class="carousel-card__footer">
+                                <span class="carousel-card__tag">
+                                    <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    Higiene &amp; Hidratação
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 2: Golden Táxi Dog na Janela -->
+                    <article class="carousel-card">
+                        <div class="carousel-card__media">
+                            <img src="assets/images/pet-taxi-golden-janela.jpg" alt="Golden Retriever voltando feliz no Táxi Dog com a cabeça na janela" class="carousel-card__img" loading="lazy">
+                            <span class="carousel-card__badge carousel-card__badge--gold">Táxi Dog Sem Taxa</span>
+                        </div>
+                        <div class="carousel-card__body">
+                            <h3 class="carousel-card__title">Golden no Táxi Dog</h3>
+                            <p class="carousel-card__text">Voltando cheiroso e feliz do banho! Buscamos e levamos com transporte seguro e climatizado sem taxa na cidade.</p>
+                            <div class="carousel-card__footer">
+                                <span class="carousel-card__tag">
+                                    <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    Comodidade Total
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 3: Chow Chow Ursinho -->
+                    <article class="carousel-card">
+                        <div class="carousel-card__media">
+                            <img src="assets/images/pet-chowchow-ursinho.jpg" alt="Chow Chow ursinho com língua roxa e gola rosa estampada" class="carousel-card__img" loading="lazy">
+                            <span class="carousel-card__badge">Porte Grande &bull; Chow Chow</span>
+                        </div>
+                        <div class="carousel-card__body">
+                            <h3 class="carousel-card__title">Chow Chow Ursinho</h3>
+                            <p class="carousel-card__text">Banho completo cuidadoso, secagem profunda do subpelo sem umidade, gola alegre e presilha amarela.</p>
+                            <div class="carousel-card__footer">
+                                <span class="carousel-card__tag">
+                                    <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    Pelagem Volumosa
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 4: Rough Collie Lassie -->
+                    <article class="carousel-card">
+                        <div class="carousel-card__media">
+                            <img src="assets/images/pet-collie-lassie.jpg" alt="Rough Collie Lassie deslumbrante com peito branco e lacinhos pink" class="carousel-card__img" loading="lazy">
+                            <span class="carousel-card__badge carousel-card__badge--gold">Porte Grande &bull; Collie</span>
+                        </div>
+                        <div class="carousel-card__body">
+                            <h3 class="carousel-card__title">Collie Lassie Majestosa</h3>
+                            <p class="carousel-card__text">Peitoral branco limpo e macio, desembolo cuidadoso, pelagem longa nutrida e laços duplos pink.</p>
+                            <div class="carousel-card__footer">
+                                <span class="carousel-card__tag">
+                                    <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    Elegância &amp; Nobreza
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 5: Shih Tzu Pelagem Longa Luxo -->
+                    <article class="carousel-card">
+                        <div class="carousel-card__media">
+                            <img src="assets/images/pet-pelagem-longa-luxo.jpg" alt="Shih Tzu de perfil com pelagem longa lisa e laço rosa com pingente" class="carousel-card__img" loading="lazy">
+                            <span class="carousel-card__badge carousel-card__badge--hydra">Linha Hydra Sedosa</span>
+                        </div>
+                        <div class="carousel-card__body">
+                            <h3 class="carousel-card__title">Shih Tzu Pelagem Sedosa</h3>
+                            <p class="carousel-card__text">Escovação reconstrutora, hidratação profunda sem nós e penteado de exposição com lacinho especial.</p>
+                            <div class="carousel-card__footer">
+                                <span class="carousel-card__tag">
+                                    <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    Cuidado de Exposição
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 6: Pinscher Estiloso -->
+                    <article class="carousel-card">
+                        <div class="carousel-card__media">
+                            <img src="assets/images/pet-pinscher-verde.jpg" alt="Pinscher porte mini pelagem curta com colar de pérolas e lacinho" class="carousel-card__img" loading="lazy">
+                            <span class="carousel-card__badge">Porte Mini &bull; R$ 55</span>
+                        </div>
+                        <div class="carousel-card__body">
+                            <h3 class="carousel-card__title">Pinscher Estiloso</h3>
+                            <p class="carousel-card__text">Atendimento paciente, tosa higiênica precisa, unhas aparadas sem dor e adereço artesanal exclusivo.</p>
+                            <div class="carousel-card__footer">
+                                <span class="carousel-card__tag">
+                                    <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    Cuidado Delicado
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 7: Shih Tzu Penteado Glamour -->
+                    <article class="carousel-card">
+                        <div class="carousel-card__media">
+                            <img src="assets/images/pet-shihtzu-luxo.jpg" alt="Shih Tzu com penteado de tranças e pedras de strass" class="carousel-card__img" loading="lazy">
+                            <span class="carousel-card__badge carousel-card__badge--gold">Acabamento Luxo</span>
+                        </div>
+                        <div class="carousel-card__body">
+                            <h3 class="carousel-card__title">Penteado Glamour &amp; Strass</h3>
+                            <p class="carousel-card__text">Trancinhas feitas à mão com presilhas especiais e laço pink, pelagem desembaraçada e com brilho espelhado.</p>
+                            <div class="carousel-card__footer">
+                                <span class="carousel-card__tag">
+                                    <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    Arte &amp; Estilo
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 8: Shih Tzu Tosa Bebê -->
+                    <article class="carousel-card">
+                        <div class="carousel-card__media">
+                            <img src="assets/images/pet-shihtzu-leao.jpg" alt="Shih Tzu com tosa bebê na tesoura e gravata de leãozinho" class="carousel-card__img" loading="lazy">
+                            <span class="carousel-card__badge carousel-card__badge--pink">Tosa Bebê &bull; R$ 130</span>
+                        </div>
+                        <div class="carousel-card__body">
+                            <h3 class="carousel-card__title">Shih Tzu Tosa Bebê</h3>
+                            <p class="carousel-card__text">Corte artesanal modelado na tesoura com carinha de filhote, contorno suave e gravatinha de leãozinho.</p>
+                            <div class="carousel-card__footer">
+                                <span class="carousel-card__tag">
+                                    <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    Tesoura de Precisão
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 9: Maltês Sorridente -->
+                    <article class="carousel-card">
+                        <div class="carousel-card__media">
+                            <img src="assets/images/pet-maltes-sorridente.jpg" alt="Maltês branquinho sorridente de língua de fora com gola rendada" class="carousel-card__img" loading="lazy">
+                            <span class="carousel-card__badge">Porte Pequeno &bull; R$ 75</span>
+                        </div>
+                        <div class="carousel-card__body">
+                            <h3 class="carousel-card__title">Maltês Doce &amp; Alegre</h3>
+                            <p class="carousel-card__text">Pelagem clarinha tratada com shampoo iluminador Hydra, unhas aparadas e gola floral rendada.</p>
+                            <div class="carousel-card__footer">
+                                <span class="carousel-card__tag">
+                                    <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    Pura Alegria
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 10: Dupla Chihuahua & Pequinês -->
+                    <article class="carousel-card">
+                        <div class="carousel-card__media">
+                            <img src="assets/images/pet-dupla-chihuahua-pequines.jpg" alt="Dupla pequena de Chihuahua e Pequinês com colares e florzinhas" class="carousel-card__img" loading="lazy">
+                            <span class="carousel-card__badge carousel-card__badge--gold">Dupla Especial</span>
+                        </div>
+                        <div class="carousel-card__body">
+                            <h3 class="carousel-card__title">Chihuahua &amp; Pequinês</h3>
+                            <p class="carousel-card__text">Atendimento acolhedor para a duplinha com colares de contas coloridas e laços artesanais.</p>
+                            <div class="carousel-card__footer">
+                                <span class="carousel-card__tag">
+                                    <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    Amizade Canina
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 11: Pastor Branco Suíço Filhote -->
+                    <article class="carousel-card">
+                        <div class="carousel-card__media">
+                            <img src="assets/images/pet-pastor-suico-filhote.jpg" alt="Pastor Branco Suíço filhote de bandana azul com gravatinha e florzinha" class="carousel-card__img" loading="lazy">
+                            <span class="carousel-card__badge carousel-card__badge--pink">Filhote Encantador</span>
+                        </div>
+                        <div class="carousel-card__body">
+                            <h3 class="carousel-card__title">Pastor Suíço Filhote</h3>
+                            <p class="carousel-card__text">Manejo calmo e paciente para filhotes, criando confiança desde cedo. Bandana azul e florzinha roxa.</p>
+                            <div class="carousel-card__footer">
+                                <span class="carousel-card__tag">
+                                    <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    Manejo Afetuoso
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 12: Pitbull Doce -->
+                    <article class="carousel-card">
+                        <div class="carousel-card__media">
+                            <img src="assets/images/pet-pitbull-doce.jpg" alt="Pitbull marrom dócil sorridente com língua de fora e gola rosa" class="carousel-card__img" loading="lazy">
+                            <span class="carousel-card__badge">Porte Médio &bull; R$ 100</span>
+                        </div>
+                        <div class="carousel-card__body">
+                            <h3 class="carousel-card__title">Pitbull Doce &amp; Carinhoso</h3>
+                            <p class="carousel-card__text">Banho calmante com água morna, higienização auricular e gola rosa temática com ossinhos.</p>
+                            <div class="carousel-card__footer">
+                                <span class="carousel-card__tag">
+                                    <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    Amor &amp; Respeito
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 13: Cão Dócil com Laço Rosa -->
+                    <article class="carousel-card">
+                        <div class="carousel-card__media">
+                            <img src="assets/images/pet-carinho-laco-rosa.jpg" alt="Cãozinho dócil deitado relaxado com laço rosa e florzinhas na cabeça" class="carousel-card__img" loading="lazy">
+                            <span class="carousel-card__badge">Acolhimento Total</span>
+                        </div>
+                        <div class="carousel-card__body">
+                            <h3 class="carousel-card__title">Cuidado &amp; Carinho Real</h3>
+                            <p class="carousel-card__text">Pelagem suave e desembaraçada, unhas aparadas sem estresse e adereço delicado com florzinha.</p>
+                            <div class="carousel-card__footer">
+                                <span class="carousel-card__tag">
+                                    <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    Ambiente Calmo
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 14: Pastor Alemão -->
+                    <article class="carousel-card">
+                        <div class="carousel-card__media">
+                            <img src="assets/images/pet-pastor-alemao.jpg" alt="Pastor Alemão porte grande com gravata verde pós-banho" class="carousel-card__img" loading="lazy">
+                            <span class="carousel-card__badge">Porte Grande &bull; A partir R$ 150</span>
+                        </div>
+                        <div class="carousel-card__body">
+                            <h3 class="carousel-card__title">Pastor Alemão Impecável</h3>
+                            <p class="carousel-card__text">Banho completo com remoção de subpelo solto, limpeza auricular, secagem profunda e gravata verde.</p>
+                            <div class="carousel-card__footer">
+                                <span class="carousel-card__tag">
+                                    <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    Pelagem Saudável
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 15: Golden Mix -->
+                    <article class="carousel-card">
+                        <div class="carousel-card__media">
+                            <img src="assets/images/pet-golden-mix.jpg" alt="Cão porte médio sorridente com gravata Monstros S.A." class="carousel-card__img" loading="lazy">
+                            <span class="carousel-card__badge">Porte Médio &bull; R$ 100</span>
+                        </div>
+                        <div class="carousel-card__body">
+                            <h3 class="carousel-card__title">Golden Mix Sorridente</h3>
+                            <p class="carousel-card__text">Pelagem hidratada e macia, escovação desembaraçante e gravatinha temática Monstros S.A.</p>
+                            <div class="carousel-card__footer">
+                                <span class="carousel-card__tag">
+                                    <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    Alegria &amp; Conforto
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 16: Rottweiler Meiga -->
+                    <article class="carousel-card">
+                        <div class="carousel-card__media">
+                            <img src="assets/images/pet-rottweiler-rosa.jpg" alt="Rottweiler fêmea porte gigante com laço rosa e florzinhas" class="carousel-card__img" loading="lazy">
+                            <span class="carousel-card__badge">Porte Gigante &bull; A partir R$ 200</span>
+                        </div>
+                        <div class="carousel-card__body">
+                            <h3 class="carousel-card__title">Rottweiler Doce &amp; Meiga</h3>
+                            <p class="carousel-card__text">Manejo carinhoso e calmo com cães gigantes, banho revigorante e laço rosa com florzinhas delicadas.</p>
+                            <div class="carousel-card__footer">
+                                <span class="carousel-card__tag">
+                                    <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    Amor Sem Tamanho
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 17: Dupla Shih Tzu -->
+                    <article class="carousel-card">
+                        <div class="carousel-card__media">
+                            <img src="assets/images/pet-dupla-shihtzu.jpg" alt="Dupla de Shih Tzus sorridentes com golas temáticas" class="carousel-card__img" loading="lazy">
+                            <span class="carousel-card__badge carousel-card__badge--gold">Cuidado em Dobro</span>
+                        </div>
+                        <div class="carousel-card__body">
+                            <h3 class="carousel-card__title">Dupla Inseparável</h3>
+                            <p class="carousel-card__text">Banhos e tosas higiênicas em sintonia com total acolhimento, saíram cheirosos e com golas natalinas.</p>
+                            <div class="carousel-card__footer">
+                                <span class="carousel-card__tag">
+                                    <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    Amigos da Cantinho do PET
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 18: Golden Retriever Scooby -->
+                    <article class="carousel-card">
+                        <div class="carousel-card__media">
+                            <img src="assets/images/pet-golden-scooby.jpg" alt="Golden Retriever radiante com gravata Scooby-Doo pós-banho Hydra" class="carousel-card__img" loading="lazy">
+                            <span class="carousel-card__badge">Porte Grande &bull; A partir R$ 150</span>
+                        </div>
+                        <div class="carousel-card__body">
+                            <h3 class="carousel-card__title">Golden Retriever Radiante</h3>
+                            <p class="carousel-card__text">Pelagem dourada reluzente tratada com linha Hydra, unhas aparadas e gravata do Scooby-Doo.</p>
+                            <div class="carousel-card__footer">
+                                <span class="carousel-card__tag">
+                                    <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    Pelagem Espelhada
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Card 19: Trio Patrulha Canina -->
+                    <article class="carousel-card">
+                        <div class="carousel-card__media">
+                            <img src="assets/images/pet-trio-patrulha.jpg" alt="Trio de cães clientes da Cantinho do PET com gravatas da Patrulha Canina" class="carousel-card__img" loading="lazy">
+                            <span class="carousel-card__badge carousel-card__badge--gold">Família VIP</span>
+                        </div>
+                        <div class="carousel-card__body">
+                            <h3 class="carousel-card__title">Trio Patrulha Canina</h3>
+                            <p class="carousel-card__text">Trio animado pronto para o passeio, todos higienizados, perfumados e com gravatinhas coordenadas.</p>
+                            <div class="carousel-card__footer">
+                                <span class="carousel-card__tag">
+                                    <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                                    Família Protegida
+                                </span>
+                            </div>
+                        </div>
+                    </article>
+                </div></div>
+
+                <!-- Carousel Controls -->
+                <div class="carousel-controls">
+                    <button class="carousel-btn" id="carouselPrevBtn" aria-label="Foto anterior">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                    </button>
+                    <div class="carousel-dots" id="carouselDots" role="tablist" aria-label="Navegação das fotos"></div>
+                    <button class="carousel-btn" id="carouselNextBtn" aria-label="Próxima foto">
+                        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        <!-- ============================================
+         SERVIÇOS E VALORES
+    ============================================= -->
+    <section class="section section--alt servicos" id="servicos">
+        <div class="container">
+            <div class="section__header reveal">
+                <span class="section__label">Atendimento com Hora Marcada</span>
+                <h2 class="section__title">Nossos Serviços &amp; Cuidados</h2>
+                <p class="section__subtitle">Dedicação, carinho e produtos de alta qualidade para cães e gatos em Saquarema</p>
+            </div>
+
+            <!-- Hydra & Quality Authority Banner -->
+            <div class="hydra-banner reveal">
+                <div class="hydra-banner__content">
+                    <div class="hydra-banner__badge">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <span>Padrão Ouro em Estética Pet</span>
+                    </div>
+                    <h3 class="hydra-banner__title">Cuidado profissional com produtos selecionados e seguros</h3>
+                    <p class="hydra-banner__text">
+                        Não economizamos na saúde do seu melhor amigo. Trabalhamos com cosméticos hipoalergênicos e suaves de alta performance, garantindo limpeza profunda, proteção da pele e fragrância agradável sem estresse para cães e gatos.
+                    </p>
+                    <div class="hydra-banner__tags">
+                        <span class="hydra-tag">
+                            <svg class="check-svg" style="color:#FDE68A;width:15px;height:15px;" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            Produtos Hipoalergênicos
+                        </span>
+                        <span class="hydra-tag">
+                            <svg class="check-svg" style="color:#FDE68A;width:15px;height:15px;" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            Dermatologicamente Testados
+                        </span>
+                        <span class="hydra-tag">
+                            <svg class="check-svg" style="color:#FDE68A;width:15px;height:15px;" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            Hora Marcada Sem Gaiolas
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grid de Serviços -->
+            <div class="servicos__grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem;">
+                <!-- Card 1: Banho Completo -->
+                <article class="service-card reveal">
+                    <div class="service-card__top">
+                        <div class="service-card__icon-box">
+                            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 12h16"></path>
+                                <path d="M5 12a7 7 0 0 1 14 0v4a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-4z"></path>
+                                <path d="M7 12V8a5 5 0 0 1 10 0v4"></path>
+                                <line x1="9" y1="21" x2="9" y2="23"></line>
+                                <line x1="15" y1="21" x2="15" y2="23"></line>
+                            </svg>
+                        </div>
+                        <span class="service-card__pill service-card__pill--highlight">Mais Procurado</span>
+                    </div>
+
+                    <h3 class="service-card__title">Banho Completo</h3>
+                    <p class="service-card__description">
+                        Higienização com água morna e cosméticos específicos. Secagem calma e atenciosa, pensada especialmente no bem-estar de cães e gatos.
+                    </p>
+
+                    <ul class="service-card__checklist">
+                        <li>
+                            <svg class="check-svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Banho relaxante com shampoo e condicionador neutro</span>
+                        </li>
+                        <li>
+                            <svg class="check-svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Higienização segura e delicada das orelhas</span>
+                        </li>
+                        <li>
+                            <svg class="check-svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Secagem individual e escovação cuidadosa</span>
+                        </li>
+                        <li>
+                            <svg class="check-svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Finalização com perfume suave e adereço</span>
+                        </li>
+                    </ul>
+
+                    <div class="service-card__footer">
+                        <div class="service-card__price-box">
+                            <span class="price-label">Valor Estimado</span>
+                            <span class="price-tag">A partir de R$ 50,00</span>
+                        </div>
+                        <a href="https://wa.me/5522997351677?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20Banho%20para%20o%20meu%20pet." class="btn btn--card-whatsapp js-trigger-booking" data-service="Banho Completo">
+                            <span>Agendar Banho</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Card 2: Tosa Geral -->
+                <article class="service-card reveal">
+                    <div class="service-card__top">
+                        <div class="service-card__icon-box service-card__icon-box--alt">
+                            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="6" cy="6" r="3"></circle>
+                                <circle cx="6" cy="18" r="3"></circle>
+                                <line x1="20" y1="4" x2="8.12" y2="15.88"></line>
+                                <line x1="14.47" y1="14.48" x2="20" y2="20"></line>
+                                <line x1="8.12" y1="8.12" x2="12" y2="12"></line>
+                            </svg>
+                        </div>
+                        <span class="service-card__pill">Máquina &amp; Tesoura</span>
+                    </div>
+
+                    <h3 class="service-card__title">Tosa Geral</h3>
+                    <p class="service-card__description">
+                        Indicada para alívio térmico, praticidade e padrão estético da raça. Realizada com lâminas esterilizadas, garantindo segurança e corte uniforme.
+                    </p>
+
+                    <ul class="service-card__checklist">
+                        <li>
+                            <svg class="check-svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Banho preparatório relaxante incluso</span>
+                        </li>
+                        <li>
+                            <svg class="check-svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Tosa na máquina ou acabamento com tesoura</span>
+                        </li>
+                        <li>
+                            <svg class="check-svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Adaptação ao comprimento preferido do tutor</span>
+                        </li>
+                        <li>
+                            <svg class="check-svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Acabamento suave e finalização perfumada</span>
+                        </li>
+                    </ul>
+
+                    <div class="service-card__footer">
+                        <div class="service-card__price-box">
+                            <span class="price-label">Valor Estimado</span>
+                            <span class="price-tag">A partir de R$ 90,00</span>
+                        </div>
+                        <a href="https://wa.me/5522997351677?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20Tosa%20para%20o%20meu%20pet." class="btn btn--card-whatsapp js-trigger-booking" data-service="Tosa Geral">
+                            <span>Agendar Tosa</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Card 3: Tosa Higiênica -->
+                <article class="service-card reveal">
+                    <div class="service-card__top">
+                        <div class="service-card__icon-box" style="background: #E0F2FE; color: #0284C7;">
+                            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg>
+                        </div>
+                        <span class="service-card__pill">Saúde &amp; Higiene</span>
+                    </div>
+
+                    <h3 class="service-card__title">Tosa Higiênica</h3>
+                    <p class="service-card__description">
+                        Manutenção higiênica essencial para o bem-estar e conforto do seu pet. Elimina o excesso de pelos nas áreas mais suscetíveis a sujidade e umidade.
+                    </p>
+
+                    <ul class="service-card__checklist">
+                        <li>
+                            <svg class="check-svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Raspagem preventiva nas almofadinhas plantares</span>
+                        </li>
+                        <li>
+                            <svg class="check-svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Higiene da região íntima e perianal</span>
+                        </li>
+                        <li>
+                            <svg class="check-svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Limpeza da área dos olhos e focinho quando necessário</span>
+                        </li>
+                        <li>
+                            <svg class="check-svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Sensação imediata de limpeza e alívio</span>
+                        </li>
+                    </ul>
+
+                    <div class="service-card__footer">
+                        <div class="service-card__price-box">
+                            <span class="price-label">Valor Estimado</span>
+                            <span class="price-tag">A partir de R$ 40,00</span>
+                        </div>
+                        <a href="https://wa.me/5522997351677?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20Tosa%20Higi%C3%AAnica%20para%20o%20meu%20pet." class="btn btn--card-whatsapp js-trigger-booking" data-service="Tosa Higiênica">
+                            <span>Agendar Tosa Higiênica</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Card 4: Hidratação Profunda -->
+                <article class="service-card reveal">
+                    <div class="service-card__top">
+                        <div class="service-card__icon-box" style="background: #FDF2F8; color: #DB2777;">
+                            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+                            </svg>
+                        </div>
+                        <span class="service-card__pill service-card__pill--highlight">Brilho &amp; Maciez</span>
+                    </div>
+
+                    <h3 class="service-card__title">Hidratação Profunda</h3>
+                    <p class="service-card__description">
+                        Tratamento nutritivo intensivo que devolve o brilho natural, sela as cutículas dos fios ressecados e facilita a escovação diária, deixando o pelo sedoso e cheiroso.
+                    </p>
+
+                    <ul class="service-card__checklist">
+                        <li>
+                            <svg class="check-svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Máscara nutritiva intensiva com ativos especiais</span>
+                        </li>
+                        <li>
+                            <svg class="check-svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Recuperação de fios ásperos e quebradiços</span>
+                        </li>
+                        <li>
+                            <svg class="check-svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Desembaraço suave sem agredir a pelagem</span>
+                        </li>
+                        <li>
+                            <svg class="check-svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Fragrância duradoura de alta fixação</span>
+                        </li>
+                    </ul>
+
+                    <div class="service-card__footer">
+                        <div class="service-card__price-box">
+                            <span class="price-label">Valor Estimado</span>
+                            <span class="price-tag">A partir de R$ 45,00</span>
+                        </div>
+                        <a href="https://wa.me/5522997351677?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20Hidrata%C3%A7%C3%A3o%20Profunda%20para%20o%20meu%20pet." class="btn btn--card-whatsapp js-trigger-booking" data-service="Hidratação Profunda">
+                            <span>Agendar Hidratação</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Card 5: Corte de Unha & Limpeza de Ouvidos -->
+                <article class="service-card reveal">
+                    <div class="service-card__top">
+                        <div class="service-card__icon-box" style="background: #ECFDF5; color: #059669;">
+                            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                            </svg>
+                        </div>
+                        <span class="service-card__pill">Cuidado Rápido</span>
+                    </div>
+
+                    <h3 class="service-card__title">Corte de Unha &amp; Cuidados</h3>
+                    <p class="service-card__description">
+                        Procedimento rápido, seguro e sem sofrimento. Cortar as unhas e manter os ouvidos higienizados evita problemas posturais, arranhões e infecções.
+                    </p>
+
+                    <ul class="service-card__checklist">
+                        <li>
+                            <svg class="check-svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Corte milimétrico sem risco à polpa vascular</span>
+                        </li>
+                        <li>
+                            <svg class="check-svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Limpeza do conduto auditivo com solução adequada</span>
+                        </li>
+                        <li>
+                            <svg class="check-svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Prevenção contra otites e desconforto ao pisar</span>
+                        </li>
+                        <li>
+                            <svg class="check-svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                            <span>Manejo paciente e gentil com a Tia Dani</span>
+                        </li>
+                    </ul>
+
+                    <div class="service-card__footer">
+                        <div class="service-card__price-box">
+                            <span class="price-label">Valor Estimado</span>
+                            <span class="price-tag">A partir de R$ 25,00</span>
+                        </div>
+                        <a href="https://wa.me/5522997351677?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20Corte%20de%20Unha%20para%20o%20meu%20pet." class="btn btn--card-whatsapp js-trigger-booking" data-service="Corte de Unhas & Cuidados">
+                            <span>Agendar Corte</span>
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Política de Horário Marcado -->
+            <div class="cancellation-policy-box reveal">
+                <div class="cancellation-policy-box__icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                </div>
+                <div class="cancellation-policy-box__content">
+                    <h4 class="cancellation-policy-box__title">Atendimento com Hora Marcada</h4>
+                    <p class="cancellation-policy-box__text">
+                        Trabalhamos exclusivamente com horário marcado para garantir um ambiente calmo, sem estresse e com dedicação total para cães e gatos com a Tia Dani. Caso precise desmarcar ou reagendar seu horário, <strong>solicitamos aviso prévio de 24 horas</strong>. Agradecemos a compreensão e o carinho com nosso trabalho!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+            <!-- ============================================
+         AVALIAÇÕES DO GOOGLE
+    ============================================= -->
+    <section class="section avaliacoes" id="avaliacoes">
+        <div class="container">
+            <div class="section__header reveal">
+                <div class="google-official-badge">
+                    <svg width="22" height="22" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                        <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                        <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/>
+                        <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/>
+                    </svg>
+                    <span class="badge-title">Avaliações no Google</span>
+                    <div class="badge-score">
+                        <strong>5,0</strong>
+                        <div class="stars-row">
+                            <svg class="star-icon" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                            <svg class="star-icon" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                            <svg class="star-icon" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                            <svg class="star-icon" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                            <svg class="star-icon" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="section__title">Experiências de quem confia no Cantinho do PET</h2>
+                <p class="section__subtitle">Depoimentos reais deixados no Google Maps por clientes e tutores de Saquarema</p>
+            </div>
+
+            <div class="avaliacoes__grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.75rem;">
+                <!-- Avaliação 1 -->
+                <article class="review-box reveal" style="display: flex; flex-direction: column; justify-content: space-between;">
+                    <div>
+                        <div class="review-box__header">
+                            <div class="review-box__avatar" style="background: #0284c7;">TD</div>
+                            <div class="review-box__meta">
+                                <h4>Cliente Verificado</h4>
+                                <span>Avaliação no Google Maps</span>
+                            </div>
+                            <svg class="google-logo-subtle" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+                                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/>
+                                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/>
+                            </svg>
+                        </div>
+                        <div class="review-box__rating">
+                            <div class="stars-row">
+                                <svg class="star-icon" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                <svg class="star-icon" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                <svg class="star-icon" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                <svg class="star-icon" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                <svg class="star-icon" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                            </div>
+                            <span class="review-date">Google Maps</span>
+                        </div>
+                        <p class="review-box__text">
+                            &ldquo;Tia Dani, uma profissional super ética.&rdquo;
+                        </p>
+                    </div>
+                    <a href="https://www.google.com/maps/reviews/data=!4m5!14m4!1m3!1m2!1s110942828010039629369!2s0x975ff5547d4bf3:0x4913e704debc88a0?ved=1t:31295&amp;ictx=111" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 6px; margin-top: 14px; font-size: 0.85rem; font-weight: 700; color: #0284c7; text-decoration: none;">
+                        <span>Ver no Google Maps</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                    </a>
+                </article>
+
+                <!-- Avaliação 2 -->
+                <article class="review-box reveal" style="display: flex; flex-direction: column; justify-content: space-between;">
+                    <div>
+                        <div class="review-box__header">
+                            <div class="review-box__avatar" style="background: #0284c7;">PJ</div>
+                            <div class="review-box__meta">
+                                <h4>Cliente Verificado</h4>
+                                <span>Avaliação no Google Maps</span>
+                            </div>
+                            <svg class="google-logo-subtle" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+                                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/>
+                                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/>
+                            </svg>
+                        </div>
+                        <div class="review-box__rating">
+                            <div class="stars-row">
+                                <svg class="star-icon" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                <svg class="star-icon" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                <svg class="star-icon" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                <svg class="star-icon" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                <svg class="star-icon" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                            </div>
+                            <span class="review-date">Google Maps</span>
+                        </div>
+                        <p class="review-box__text">
+                            &ldquo;O preço é justo e o resultado foi ótimo.&rdquo;
+                        </p>
+                    </div>
+                    <a href="https://www.google.com/maps/reviews/data=!4m5!14m4!1m3!1m2!1s100729120254118633585!2s0x975ff5547d4bf3:0x4913e704debc88a0?ved=1t:31295&amp;ictx=111" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 6px; margin-top: 14px; font-size: 0.85rem; font-weight: 700; color: #0284c7; text-decoration: none;">
+                        <span>Ver no Google Maps</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                    </a>
+                </article>
+
+                <!-- Avaliação 3 -->
+                <article class="review-box reveal" style="display: flex; flex-direction: column; justify-content: space-between;">
+                    <div>
+                        <div class="review-box__header">
+                            <div class="review-box__avatar" style="background: #0284c7;">DA</div>
+                            <div class="review-box__meta">
+                                <h4>Cliente Verificado</h4>
+                                <span>Avaliação no Google Maps</span>
+                            </div>
+                            <svg class="google-logo-subtle" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+                                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"/>
+                                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"/>
+                            </svg>
+                        </div>
+                        <div class="review-box__rating">
+                            <div class="stars-row">
+                                <svg class="star-icon" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                <svg class="star-icon" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                <svg class="star-icon" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                <svg class="star-icon" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                <svg class="star-icon" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                            </div>
+                            <span class="review-date">Google Maps</span>
+                        </div>
+                        <p class="review-box__text">
+                            &ldquo;Tia Dani muito atenciosa , realmente ama os animais !&rdquo;
+                        </p>
+                    </div>
+                    <a href="https://www.google.com/maps/reviews/data=!4m5!14m4!1m3!1m2!1s105520916228335105077!2s0x975ff5547d4bf3:0x4913e704debc88a0?ved=1t:31295&amp;ictx=111" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 6px; margin-top: 14px; font-size: 0.85rem; font-weight: 700; color: #0284c7; text-decoration: none;">
+                        <span>Ver no Google Maps</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================
+         INSTAGRAM
+    ============================================= -->
+    <section class="section instagram-section" id="instagram">
+        <div class="container">
+            <div class="instagram-banner reveal">
+                <div class="instagram-banner__info">
+                    <span class="section__label section__label--on-dark">Perfil Oficial</span>
+                    <h2 class="section__title section__title--on-dark">Acompanhe nossos resultados</h2>
+                    <p class="section__subtitle section__subtitle--on-dark">
+                        Entre em contato direto com a Tia Dani para tirar dúvidas, consultar disponibilidade e agendar com carinho.
+                    </p>
+                </div>
+
+                <a href="https://wa.me/5522997351677" class="btn btn--instagram" target="_blank" rel="noopener noreferrer">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                    </svg>
+                    <span>Falar no WhatsApp</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================
+         CONTATO
+    ============================================= -->
+    <section class="section section--alt contato" id="contato">
+        <div class="container">
+            <div class="section__header reveal">
+                <span class="section__label">Atendimento</span>
+                <h2 class="section__title">Fale Conosco</h2>
+                <p class="section__subtitle">Entre em contato para esclarecer dúvidas ou marcar o horário do seu pet</p>
+            </div>
+
+            <div class="contato__grid">
+                <!-- Telefones -->
+                <div class="contact-card reveal">
+                    <div class="contact-card__icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="contact-card__title">Telefones</h3>
+                    <div class="contact-card__content">
+                        <a href="tel:+5522997351677" class="contact-link">
+                            <span class="contact-name">Tia Dani</span>
+                            <span class="contact-number">(22) 99735-1677</span>
+                        </a>
+                        <p style="font-size: 0.85rem; color: #64748B; margin-top: 6px;">Atendimento acolhedor com hora marcada</p>
+                    </div>
+                </div>
+
+                <!-- Endereço -->
+                <div class="contact-card reveal">
+                    <div class="contact-card__icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                    </div>
+                    <h3 class="contact-card__title">Localização</h3>
+                    <div class="contact-card__content">
+                        <p class="contact-address">Tv. Pedro Pereira, 2</p>
+                        <p class="contact-sub">Saquarema - RJ</p>
+                        <p class="contact-sub">CEP 28994-500</p>
+                    </div>
+                </div>
+
+                <!-- Horário -->
+                <div class="contact-card reveal">
+                    <div class="contact-card__icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="contact-card__title">Funcionamento</h3>
+                    <div class="contact-card__content">
+                        <p class="contact-schedule-days">Segunda a Sábado</p>
+                        <span class="schedule-pill">Apenas com horário marcado</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mapa -->
+            <div class="map-wrapper reveal">
+                <iframe
+                    src="https://maps.google.com/maps?q=Tv.+Pedro+Pereira,+2+-+Saquarema,+RJ,+28994-500&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                    width="100%"
+                    height="420"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Mapa de localização da Cantinho do PET em Saquarema">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================
+         RODAPÉ
+    ============================================= -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__main">
+                <div class="footer__brand">
+                    <img src="assets/logo.png" alt="Cantinho do PET" class="footer__logo">
+                    <p class="footer__slogan">O melhor banho para seu pet em Saquarema e região.</p>
+                </div>
+
+                <div class="footer__nav">
+                    <h4 class="footer__title">Navegação</h4>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#tutorial">Como Agendar</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#avaliacoes">Avaliações</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__contact-info">
+                    <h4 class="footer__title">Atendimento</h4>
+                    <p>Segunda a Sábado &bull; Horário Marcado</p>
+                    <p>Saquarema - RJ</p>
+                    <div class="footer__socials">
+                        <a href="https://wa.me/5522997351677" target="_blank" rel="noopener noreferrer" aria-label="Acessar Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="https://wa.me/5522997351677" target="_blank" rel="noopener noreferrer" aria-label="Contato pelo WhatsApp">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.275.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.072.043.419-.101.824z"/>
+                                <path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.988-1.309A9.957 9.957 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18.167c-1.634 0-3.15-.487-4.42-1.325l-.317-.208-2.961.777.79-2.887-.228-.363A8.136 8.136 0 013.833 12c0-4.503 3.664-8.167 8.167-8.167 4.503 0 8.167 3.664 8.167 8.167 0 4.503-3.664 8.167-8.167 8.167z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p>&copy; 2026 Cantinho do PET. Todos os direitos reservados. Saquarema - RJ.</p>
+                <p style="margin-top: 6px;">
+                    <a href="admin.html" target="_blank" style="color: #93c5fd; font-size: 0.8rem; text-decoration: underline;">
+                        Painel da Equipe &bull; Gestão de Agendamentos
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- ============================================
+         BOTÃO FLUTUANTE TUTORIAL (CANTO INFERIOR ESQUERDO)
+    ============================================= -->
+    <button class="tour-floating-badge js-trigger-tour" id="startTourFloatBtn" type="button" aria-label="Como agendar seu pet?">
+        <span class="tour-floating-badge__icon">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                <line x1="12" y1="17" x2="12.01" y2="17"></line>
+            </svg>
+        </span>
+        <span>Como Agendar?</span>
+    </button>
+
+    <!-- ============================================
+         BOTÃO FLUTUANTE DO WHATSAPP
+    ============================================= -->
+    <a href="https://wa.me/5522997351677?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20para%20meu%20pet." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Agendar pelo WhatsApp">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.275.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.072.043.419-.101.824z"/>
+            <path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.988-1.309A9.957 9.957 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18.167c-1.634 0-3.15-.487-4.42-1.325l-.317-.208-2.961.777.79-2.887-.228-.363A8.136 8.136 0 013.833 12c0-4.503 3.664-8.167 8.167-8.167 4.503 0 8.167 3.664 8.167 8.167 0 4.503-3.664 8.167-8.167 8.167z"/>
+        </svg>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="js/main.js"></script>
+    <script src="js/booking-store.js"></script>
+    <script src="js/booking-modal.js"></script>
+    <script src="js/tour.js"></script>
+</body>
+</html>
