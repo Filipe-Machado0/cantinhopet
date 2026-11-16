@@ -43,13 +43,14 @@
 
 /* Modal Header */
 .booking-modal__header {
-  background: linear-gradient(135deg, #1460A8 0%, #0C2340 100%);
+  background: linear-gradient(135deg, #0284C7 0%, #0369A1 100%);
   color: #ffffff;
   padding: 20px 24px;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: relative;
+  border-bottom: 2px solid #38BDF8;
 }
 
 .booking-modal__header-info {
@@ -148,11 +149,11 @@
 }
 
 .booking-step-dot.is-active {
-  color: #1460A8;
+  color: #0284C7;
 }
 
 .booking-step-dot.is-active .booking-step-dot__num {
-  background: #1460A8;
+  background: #0284C7;
   color: #ffffff;
 }
 
@@ -230,13 +231,13 @@
 
 .option-card-radio:hover .option-card-radio__content {
   border-color: #93c5fd;
-  background: #eff6ff;
+  background: #F0F9FF;
 }
 
 .option-card-radio input:checked + .option-card-radio__content {
-  border-color: #1460A8;
-  background: #eff6ff;
-  box-shadow: 0 4px 12px rgba(20, 96, 168, 0.15);
+  border-color: #0284C7;
+  background: #F0F9FF;
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.15);
 }
 
 .option-card-radio__main strong {
@@ -260,8 +261,8 @@
 }
 
 .option-card-radio input:checked + .option-card-radio__content .option-card-radio__indicator {
-  border-color: #1460A8;
-  background: #1460A8;
+  border-color: #0284C7;
+  background: #0284C7;
 }
 
 .option-card-radio input:checked + .option-card-radio__content .option-card-radio__indicator::after {
@@ -306,9 +307,9 @@
 }
 
 .size-pill-radio input:checked + .size-pill-radio__box {
-  border-color: #1460A8;
-  background: #eff6ff;
-  color: #1460A8;
+  border-color: #0284C7;
+  background: #F0F9FF;
+  color: #0284C7;
   font-weight: 700;
 }
 
@@ -350,8 +351,8 @@
 }
 
 .booking-date-input:focus {
-  border-color: #1460A8;
-  box-shadow: 0 0 0 3px rgba(20, 96, 168, 0.15);
+  border-color: #0284C7;
+  box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
 }
 
 .slots-grid-wrapper {
@@ -403,16 +404,16 @@
 }
 
 .slot-btn:hover:not(:disabled) {
-  border-color: #1460A8;
-  background: #eff6ff;
+  border-color: #0284C7;
+  background: #F0F9FF;
   transform: translateY(-2px);
 }
 
 .slot-btn.is-selected {
-  border-color: #1460A8;
-  background: #1460A8;
+  border-color: #0284C7;
+  background: #0284C7;
   color: #ffffff;
-  box-shadow: 0 4px 12px rgba(20, 96, 168, 0.25);
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.25);
 }
 
 .slot-btn.is-selected span {
@@ -459,8 +460,8 @@
 
 .form-row input:focus,
 .form-row textarea:focus {
-  border-color: #1460A8;
-  box-shadow: 0 0 0 3px rgba(20, 96, 168, 0.15);
+  border-color: #0284C7;
+  box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
 }
 
 .form-row--two-col {
@@ -498,7 +499,7 @@
 }
 
 .btn-modal-next {
-  background: #1460A8;
+  background: #0284C7;
   color: #ffffff;
   font-weight: 800;
   font-size: 0.95rem;
@@ -506,7 +507,7 @@
   border-radius: 9999px;
   border: none;
   cursor: pointer;
-  box-shadow: 0 4px 14px rgba(20, 96, 168, 0.3);
+  box-shadow: 0 4px 14px rgba(2, 132, 199, 0.3);
   transition: all 0.2s;
   display: inline-flex;
   align-items: center;
@@ -517,7 +518,7 @@
 .btn-modal-next:hover:not(:disabled) {
   background: #0e4e8a;
   transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(20, 96, 168, 0.4);
+  box-shadow: 0 6px 18px rgba(2, 132, 199, 0.4);
 }
 
 .btn-modal-next:disabled {
@@ -563,7 +564,7 @@
 }
 
 .booking-ticket {
-  background: #eff6ff;
+  background: #F0F9FF;
   border: 2px dashed #93c5fd;
   border-radius: 14px;
   padding: 16px 20px;
@@ -588,7 +589,7 @@
 }
 
 .booking-ticket__row span {
-  color: #1460A8;
+  color: #0284C7;
   font-weight: 700;
 }
 
@@ -648,12 +649,15 @@
   }
 
   .booking-modal__header {
-    flex-shrink: 0;
-    padding: 12px 16px;
-    position: sticky;
-    top: 0;
-    z-index: 20;
-  }
+  background: linear-gradient(135deg, #0284C7 0%, #0369A1 100%);
+  color: #ffffff;
+  padding: 20px 24px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #38BDF8;
+}
 
   .booking-modal__logo-badge {
     width: 36px;

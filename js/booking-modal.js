@@ -3,7 +3,7 @@
  */
 
 (function () {
-  const WHATSAPP_NUMBER = '5522997351677'; // WhatsApp oficial da Corujinha
+  const WHATSAPP_NUMBER = '5522997351677'; // WhatsApp oficial Cantinho do PET
 
   // Estado do agendamento em andamento
     // Estado do agendamento em andamento
@@ -51,7 +51,7 @@
           <div class="booking-modal__header">
             <div class="booking-modal__header-info">
               <div class="booking-modal__logo-badge">
-                <img src="assets/logo.png" alt="Corujinha">
+                <img src="assets/logo.png" alt="Cantinho do PET">
               </div>
               <div>
                 <h3 class="booking-modal__title" id="modalTitle">Agendamento Online</h3>
@@ -637,7 +637,7 @@
           } else if (lower.includes('bebê') || lower.includes('bebe') || lower.includes('tesoura')) {
             preset = 'Tosa Bebê na Tesoura';
           } else if (lower.includes('táxi') || lower.includes('taxi')) {
-            preset = 'Táxi Dog Corujinha';
+            preset = 'Táxi Dog Cantinho do PET';
           } else {
             preset = 'Banho com Tosa Higiênica';
           }
