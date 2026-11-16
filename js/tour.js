@@ -26,7 +26,7 @@
       selector: '#servicos .service-card:first-child .btn, #servicos .btn--card-whatsapp, .hero__actions .btn--secondary',
       stepNum: '03',
       title: 'Escolha de Data & Horário',
-      content: 'No assistente online, você seleciona o porte do pet (cães e gatos), o serviço desejado e consulta a estimativa de valor em tempo real antes de enviar.'
+      content: 'No assistente online, você seleciona o porte do pet (cães e gatos), o serviço desejado e escolhe o dia e horário mais conveniente para o atendimento.'
     },
     {
       id: 'step-whatsapp',

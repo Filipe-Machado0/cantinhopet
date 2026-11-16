@@ -22,13 +22,7 @@
 
   // Estimador de preço oficial conforme tabela informada
   function getEstimatedPrice(service, petSize) {
-    if (!service) return 'A consultar';
-    if (service.includes('Corte de Unhas')) return 'A partir de R$ 25,00';
-    if (service.includes('Tosa Higiênica')) return 'A partir de R$ 40,00';
-    if (service.includes('Hidratação')) return 'A partir de R$ 45,00';
-    if (service.includes('Tosa Geral')) return 'A partir de R$ 90,00';
-    if (service.includes('Banho')) return 'A partir de R$ 50,00';
-    return 'Consulte no WhatsApp';
+    return 'Com hora marcada (Tia Dani)';
   }
 
   // Cria estrutura do modal no DOM se não existir
@@ -102,7 +96,7 @@
                   <div class="option-card-radio__content">
                     <div class="option-card-radio__main">
                       <strong>Banho Completo (Cães e Gatos)</strong>
-                      <span>Água morna, cosméticos neutros, secagem atenciosa e ouvidos (A partir de R$ 50,00)</span>
+                      <span>Água morna, cosméticos neutros, secagem atenciosa e ouvidos</span>
                     </div>
                     <div class="option-card-radio__indicator"></div>
                   </div>
@@ -113,7 +107,7 @@
                   <div class="option-card-radio__content">
                     <div class="option-card-radio__main">
                       <strong>Tosa Geral (Máquina ou Tesoura)</strong>
-                      <span>Banho incluso + tosa completa adaptada ao padrão da raça (A partir de R$ 90,00)</span>
+                      <span>Banho incluso + tosa completa adaptada ao padrão da raça</span>
                     </div>
                     <div class="option-card-radio__indicator"></div>
                   </div>
@@ -124,7 +118,7 @@
                   <div class="option-card-radio__content">
                     <div class="option-card-radio__main">
                       <strong>Tosa Higiênica Preventiva</strong>
-                      <span>Almofadinhas plantares, barriga e região íntima (A partir de R$ 40,00)</span>
+                      <span>Almofadinhas plantares, barriga e região íntima</span>
                     </div>
                     <div class="option-card-radio__indicator"></div>
                   </div>
@@ -135,7 +129,7 @@
                   <div class="option-card-radio__content">
                     <div class="option-card-radio__main">
                       <strong>Hidratação Profunda</strong>
-                      <span>Recuperação de fios, brilho intenso, maciez e desembaraço (A partir de R$ 45,00)</span>
+                      <span>Recuperação de fios, brilho intenso, maciez e desembaraço</span>
                     </div>
                     <div class="option-card-radio__indicator"></div>
                   </div>
@@ -146,7 +140,7 @@
                   <div class="option-card-radio__content">
                     <div class="option-card-radio__main">
                       <strong>Corte de Unhas &amp; Cuidados</strong>
-                      <span>Corte seguro milimétrico e higienização dos ouvidos (A partir de R$ 25,00)</span>
+                      <span>Corte seguro milimétrico e higienização dos ouvidos</span>
                     </div>
                     <div class="option-card-radio__indicator"></div>
                   </div>
@@ -161,35 +155,35 @@
                   <input type="radio" name="petSize" value="Mini (pelo curto, ex: Pinscher)">
                   <div class="size-pill-radio__box">
                     <strong>Mini (Curto)</strong>
-                    <span>Ex: Pinscher &bull; R$ 55</span>
+                    <span>Ex: Pinscher, Yorkshire</span>
                   </div>
                 </label>
                 <label class="size-pill-radio">
                   <input type="radio" name="petSize" value="Pequeno (até 10kg)" checked>
                   <div class="size-pill-radio__box">
                     <strong>Pequeno</strong>
-                    <span>Até 10kg &bull; R$ 75</span>
+                    <span>Até 10kg (Shih Tzu, Gatos)</span>
                   </div>
                 </label>
                 <label class="size-pill-radio">
                   <input type="radio" name="petSize" value="Médio (10 a 25kg)">
                   <div class="size-pill-radio__box">
                     <strong>Médio</strong>
-                    <span>10 a 25kg &bull; R$ 100</span>
+                    <span>10 a 25kg (Cocker, Beagle)</span>
                   </div>
                 </label>
                 <label class="size-pill-radio">
                   <input type="radio" name="petSize" value="Grande (25 a 40kg)">
                   <div class="size-pill-radio__box">
                     <strong>Grande</strong>
-                    <span>25 a 40kg &bull; A partir R$ 150</span>
+                    <span>25 a 40kg (Golden, Labrador)</span>
                   </div>
                 </label>
                 <label class="size-pill-radio">
                   <input type="radio" name="petSize" value="Gigante (40kg+)">
                   <div class="size-pill-radio__box">
                     <strong>Gigante</strong>
-                    <span>40kg+ &bull; A partir R$ 200</span>
+                    <span>Acima de 40kg (Bernese, Pastor)</span>
                   </div>
                 </label>
               </div>
@@ -248,8 +242,8 @@
                 <textarea id="inputNotes" rows="2" placeholder="Ex: tem medo de secador, velhinho, alérgico a perfumes fortes..."></textarea>
               </div>
 
-              <div style="margin-top: 14px; padding: 10px 14px; background: #FFFBEB; border: 1px solid #FDE68A; border-left: 4px solid #F59E0B; border-radius: 8px; font-size: 0.82rem; color: #92400E; line-height: 1.45;">
-                ⚠️ <strong>Aviso importante:</strong> Para mantermos o atendimento sem filas, cancelamentos devem ser feitos com no mínimo <strong>24h de antecedência</strong>. Agendamentos não desmarcados no prazo terão cobrança de <strong>30% do valor</strong>.
+              <div style="margin-top: 14px; padding: 10px 14px; background: #F0F9FF; border: 1px solid #BAE6FD; border-left: 4px solid #0284C7; border-radius: 8px; font-size: 0.82rem; color: #0369A1; line-height: 1.45;">
+                🐾 <strong>Atendimento Humanizado:</strong> Trabalhamos com agendamento prévio para garantir que seu pet seja atendido com calma, carinho e sem gaiolas.
               </div>
             </div>
 
@@ -480,15 +474,15 @@
         <span>${formatHumanDate(record.date)} às ${record.time}</span>
       </div>
       <div class="booking-ticket__row">
-        <strong>Valor Estimado:</strong>
-        <span style="font-weight: 800; color: #1460A8;">${estimatedPrice}</span>
+        <strong>Atendimento:</strong>
+        <span style="font-weight: 700; color: #0284c7;">Exclusivo com Hora Marcada</span>
       </div>
       <div class="booking-ticket__row">
         <strong>Tutor:</strong>
         <span>${record.clientName}</span>
       </div>
-      <div style="margin-top: 12px; padding: 10px 12px; background: #FFFBEB; border: 1px solid #FCD34D; border-radius: 8px; font-size: 0.80rem; color: #92400E; line-height: 1.4;">
-        ⚠️ <strong>Política de Cancelamento:</strong> Desmarcações devem ser feitas com pelo menos <strong>24h de antecedência</strong>. Caso contrário, será cobrado <strong>30% do valor combinado</strong>.
+      <div style="margin-top: 12px; padding: 10px 12px; background: #F0F9FF; border: 1px solid #BAE6FD; border-radius: 8px; font-size: 0.82rem; color: #0369A1; line-height: 1.4;">
+        🐾 <strong>Atenção Exclusiva:</strong> Atendimento com hora marcada e sem gaiolas. Em caso de imprevisto, solicitamos aviso prévio de 24 horas.
       </div>
     `;
 
@@ -497,11 +491,11 @@
       `📌 *Código:* #${record.id}\n` +
       `🐶 *Pet:* ${record.petName} (${record.petBreed} - ${record.petSize})\n` +
       `✂️ *Serviço:* ${record.service}\n` +
-      `💰 *Valor Estimado:* ${estimatedPrice}\n` +
+      
       `📅 *Data:* ${formatHumanDate(record.date)} às ${record.time}\n` +
       `👤 *Tutor:* ${record.clientName}\n` +
       (record.notes ? `📝 *Observação:* ${record.notes}\n\n` : `\n`) +
-      `⚠️ *Aviso:* Ciente de que desmarcações com menos de 24h de antecedência terão taxa de 30% do valor.\n\n` +
+      
       `Obrigado(a)!`;
     const encodedMsg = encodeURIComponent(msg);
     const waBtn = document.getElementById('btnWhatsAppConfirmSend');
